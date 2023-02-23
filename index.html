@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/534a8b1409.js" crossorigin="anonymous"></script>
+    <title>Weather api</title>
+</head>
+<body style="background: linear-gradient(180deg, rgba(202,240,248,1) , rgba(0,212,255,1) 100%); overflow-y: hidden;">
+    <div class="container">
+        <div class="content-block">
+            <h1 class="head_text">Weather</h1>
+            <div class="search__block">
+                <input type="text" class="search_input" placeholder="Enter city name" id="city_name">
+                <button type="submit" class="" onclick="Button_click()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="output__block">
+            <div class="city_block" id="city"></div>
+            <div class="temperature_block">
+                <img src="" alt="" id="icon" class="icon">
+                <div class="temperature_celcium" id="temperature"></div>
+            </div>
+            <div class="stats_block">
+                <small class="sky_block" id="sky"> </small>
+                <small class="humidity_block" id="humidity"></small>
+                <small class="wind_block" id="wind"> </small>
+                <small class="visibility_1" id="visibility"> </small>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

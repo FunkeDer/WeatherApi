@@ -1,0 +1,92 @@
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.content-block {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    min-height: fit-content;
+    background-color: #ffe45e;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 1em;
+    border: 2px  solid   black ;
+    padding: 20px 20px;
+}
+
+.head_text{
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+.search__block{
+    display: flex;
+    padding-top: 20px;
+}
+
+.output__block{
+    position: relative;
+    padding-top: 2em;
+}
+
+.search__block button{
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background: #4A5859;
+  color: white;
+  font-size: 16px;
+  border: 1.5px solid black;
+  cursor: pointer;
+  margin-left: 30px;
+  margin-right: 20px;
+  transition: 0.3s;
+}
+
+.search__block button:hover{
+    background: #fafafa;
+    color: black;
+    transition: 0.3s;
+}
+
+.search_input{
+    border-radius: 10px;
+    border: 1.5px solid black;
+    background-color: #fafafa;
+    font-family: 'Inconsolata', monospace;
+}
+
+.temperature_block{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Inconsolata', monospace;
+}
+
+.temperature_celcium{
+    padding-left: 20px;
+    font-family: 'Inconsolata', monospace;
+}
+
+.stats_block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Inconsolata', monospace;
+}
+
+.icon{
+    height: 60px;
+}
+
+.stats_block small{
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+
+}
